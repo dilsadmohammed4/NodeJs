@@ -1,0 +1,128 @@
+
+/*
+    Modules In Node Js:-
+
+    - Modules in Node.js is a simple or complex functionality organised in single or multiple javascript files which can be reused throughout the Node.js
+    - Consider modules to be the same as JavaScript Libraries.
+    - A set of you want to include in your application.
+    - Helps in sharing, re-using the shared pieces of functionality.
+    - Easy to maintain, extends and debug.
+
+
+*/
+/*
+    1. Modules any simple or complex piece of functionality which is separated out in another file.
+    2. Modules helps us in Modular design of Application.
+
+    App
+        - Users     //Users.js
+        - Invoices  //invoices.js
+            - create Invoices
+            - update invoices
+        - Orders    //order.js
+            - create order
+            - update order
+            - delete order
+        - Products
+
+    3. Modules helps in Reusing the code
+
+    4. Easy to maintain and extends and debug.
+
+    5. Nodejs - a lot of built-in, ready to use Modules
+        - Common functionality
+        - Everyone
+        e.g
+            http    //anyone whonis working with HTTP
+            fs  //again anyone working in fs
+
+    6. What is the complete list of bulit-in modules?
+        - Do not worry -Chapter 14 -core modules
+
+
+
+*/
+
+
+
+/*
+
+    Creating Custom Modules
+
+    - We can create Custom Modules in Node Js
+    - It is best practice to always create functionality in Modules.
+    - It helps in making the code easier to maintain, extends and also helps in modular approach architecture.
+        - Modules and Exports -Global Object
+        - These are 2 most frequently used Global Object in Node Js.
+
+
+    App
+        - Common
+        - Modules
+            - Users
+            - Billing
+            - Products
+            - Invoices
+            - Orders
+            - Reviews
+            - Images
+
+    - Example #1 - using modules.exports with a Function.       --//invoices.js
+
+    - Example #2 - using modules.exports with a Variable.       --//users.js
+        - Clashes with same variable names.
+            - It leads to lot of problems.
+        - This is best practice to define global variable which are re used.
+
+    - Example #2 - using modules.exports with a Class.             --//order.js
+
+*/
+
+
+/*
+    Shared Modules
+
+    - Modules which are exported and used in other modules will share the same variable instance and it's value.
+    - It's way of sharing code and values between various modules.
+
+
+    -- Modules which are used inside other modules.
+    -- The values are updated for the variable since they share same memory instance.
+    -- Whenever we update a value in shaed module -its updated in the main modules.
+
+    - What Use Cases?
+        - Real time  Chat Application.
+            - You want to people to see same "Info".
+        - Notification
+            - Some value got updated.
+                - You need to specify and show the updated value.
+        - Order Tracking
+            - Status Change
+                - The same change appearing everywhere else
+
+    Precautions of using Shared Modules:
+        - Since the value is always updated.
+            - Be extremly careful when doing these modules.
+            - This lead to dengerous results in
+
+
+*/
+
+
+/*
+
+    We will cover the following aspects of Node Js
+
+    - variable
+        - const
+        - variable
+        - let
+    - classes and objects.
+    - this keyword.
+    - modules and exports.
+    - require
+    - function / methods
+    - Built-in modules
+        - url
+
+*/

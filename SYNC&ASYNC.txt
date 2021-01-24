@@ -1,0 +1,43 @@
+
+We will learn all about
+
+    1. Sync
+    2. Async
+    3. Promise
+    4. Try and Catch
+
+1. Sync / Synchronous
+    - Step by Step Execution.
+    - Sequential Execution - Top to Down.
+    - Wait for Request.
+    - This is Slow - By Design.
+    - It is not waste like most people think
+        - The same thing they think about most Backbenchers?
+
+2. Async / Asynchronous
+    - DO NOT wait and proceed with Execution of code.
+    - When you received the response - Process it.
+
+
+
+Sync and Async:
+---------------
+
+1. Async methods will be called independently and executed parellarly.
+    - They do not wait for requests to be completed.
+    - As and when we get response - It will be processed.
+
+2. Node Js is by default Async processing.
+3. Thats why Node Js is fast in processing.
+
+4. Sync - Which means we need the first method to be completed and then the next method
+    - Executed Sequentially.
+    - Step by Step.
+    - From Top to Bottom.
+
+5. Sync method using Trt/Catch Block.
+
+6. Sync - Through Promises
+    new Promise(resolve, reject)
+        - Based on reslove or reject.
+            - You can bind the second method in calling.
