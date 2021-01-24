@@ -126,3 +126,39 @@
         - url
 
 */
+
+
+
+/*
+    #13- Notes on object Factory:
+
+    1. In Episode #10 - We have learnt about Shared memory Modules.
+    2. Recap- Demo.
+    3. The values get updated in any modules and can result in clashes.
+
+    4. how do we fix this issue.
+        - Object Factory.
+
+    5. How to get individual values of an object keyword.
+
+    6. How to share common values of an object.
+
+*/
+
+
+
+/*
+    Events and Event Emmitter
+
+    1. Node Js allows us to setup Events.
+    2. Node Js has a core module "Events" which has a class EventEmmiter using which we can setup Events.
+    3. The events are triggered using the emmiter.
+    4. We can pass multiple parameters to the events as well
+
+    eventEmitter.on('invoked',(a,b)=>{
+        console.log("Click events captured"+a+b)
+    });
+    eventEmitter.emit('invoked','10','20 ')
+
+
+*/
